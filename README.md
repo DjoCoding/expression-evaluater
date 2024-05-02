@@ -43,7 +43,9 @@ You'll find in the **src** directory the files needed for the implementation of 
 
 **lexerf.pas** : contains the lex function which will take the user input and return a sequence of tokens needed for parsing!
 
-**parserf.pas** : contains the functions nedded for parsing user input!
+**parserf.pas** : contains the functions nedded for parsing user input and generating the abstract syntax tree!
+
+**astf.pas** : contains the constructors of the AST nodes!
 
 
 ## Getting Started
