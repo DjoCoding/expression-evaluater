@@ -65,9 +65,13 @@ procedure evaluate_user_input(input: string);
         parser := parser_init(tokens);
         root := parse(parser);
 
+        print_tree(root);
+
+        writeln();
+
         if (root = NIL) then exit();
         
-        writeln(eval(root));
+        writeln('result is: ', eval(root));
         
         parser_remove(parser);
         tree_remove(root);
